@@ -6,5 +6,5 @@
 
 ## Team Members
 
-- Sarah Stacie Solomon
-- Parmita V
+- **Sarah Stacie Solomon**
+- **Parmita V**
