@@ -2,5 +2,6 @@
 
 <img src="./docs/team photo.jpeg" alt="Team Photo" width=600>
 
-hey
+# WRO 2026 - Future Innovators - Robotics Project Documentation
 
+## Team Members
