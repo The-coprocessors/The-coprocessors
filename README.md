@@ -5,3 +5,6 @@
 # WRO 2026 - Future Innovators - Robotics Project Documentation
 
 ## Team Members
+
+- Sarah Stacie Solomon
+- Parmita V
