@@ -117,10 +117,17 @@ Microcontroller: Arduino UNO R3.
 ### 2.3 Chassis Design
 
 - Chassis Overview
+<table>
+  <tr>
+    <td align="center">
+      <b>Front View</b><br>
+      <img src="./docs/chassis 1.jpeg" alt="chassis 1.1" width=400>
+    </td>
+    <td align="center">
+      <b>Back View</b><br>
+      <img src="./docs/chassis 2.jpeg" alt="chassis 1.2" width=400>
+    </td>
 
-<img src="./docs/chassis 1.jpeg" alt="chassis 1.1" width=400>
-
-<img src="./docs/chassis 2.jpeg" alt="chassis 1.2" width=400>
 
 | Dimension   | Value (mm)  |
 | ----------- | ----------- |
