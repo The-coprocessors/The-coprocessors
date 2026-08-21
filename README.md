@@ -150,7 +150,7 @@ The chassis was custom-designed in FreeCAD and [3D printed/fabricated using [MAT
 
 ### 3.1 Power Source
 
-**Battery: lithium ion 16046 **
+**Battery: lithium ion 16046**
 
 <table>
   <tr>
