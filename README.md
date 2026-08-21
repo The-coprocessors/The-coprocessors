@@ -42,7 +42,7 @@ We are a team of students passionate about robotics, AI, and culture. Nexus 2.0 
 - [10.Extras](#10-Extras)
 
  
-## Overview
+## 1.Overview
 
 ### 1.1 About the Project
 
@@ -63,7 +63,7 @@ This section showcases the physical development of Nexus 2.0, from its overall d
 The images below document the robot's mechanical structure, electronic integration, display system, mobility system, and final appearance.
 
 
-## Mobility Management
+## 2.Mobility Management
 
 ### 2.1 Drive System
 
@@ -146,7 +146,7 @@ The layout of the Nexus 2.0 chassis is designed to accommodate the four Mecanum 
 The chassis was custom-designed in FreeCAD and [3D printed/fabricated using [MATERIAL]]. The design was refined through multiple iterations to achieve proper component alignment and stability. Separate mounts and brackets are used for components such as the motors, camera, display, and sensors. The chassis is also designed with modularity in mind, allowing individual components to be replaced or upgraded without redesigning the entire structure.
 
 
-## Power and sense management 
+## 3.Power and sense management 
 
 ### 3.1 Power Source
 
