@@ -112,19 +112,18 @@ Drive System: 4-wheel Mecanum drive
 Motor Driver: L298N
 Microcontroller: Arduino UNO R3. 
 
-
-
 ### 2.3 Chassis Design
 
 - Chassis Overview
+
 <table>
   <tr>
     <td align="center">
-      <b>Front View</b><br>
+      <b>Side View</b><br>
       <img src="./docs/chassis 1.jpeg" alt="chassis 1.1" width=400>
     </td>
     <td align="center">
-      <b>Back View</b><br>
+      <b>Top View</b><br>
       <img src="./docs/chassis 2.jpeg" alt="chassis 1.2" width=400>
     </td>
 
@@ -147,3 +146,25 @@ The layout of the Nexus 2.0 chassis is designed to accommodate the four Mecanum 
 The chassis was custom-designed in FreeCAD and [3D printed/fabricated using [MATERIAL]]. The design was refined through multiple iterations to achieve proper component alignment and stability. Separate mounts and brackets are used for components such as the motors, camera, display, and sensors. The chassis is also designed with modularity in mind, allowing individual components to be replaced or upgraded without redesigning the entire structure.
 
 
+## Power and sense management 
+
+### 3.1 Power Source
+
+**Battery: lithium ion 16046 **
+
+<table>
+  <tr>
+    <td align="center" width="300" >
+      <img src="./docs/Lithium ion.jpeg" alt="Lithium Ion Battery" width = 100% >
+    </td>
+    <td>
+      <h3>Specifications:</h3>
+      <ul>
+          <li>Battery Type: Lithium-ion</li>
+          <li>Cell Voltage: 3.7V</li>
+          <li>Rechargeable: Yes </li>
+          <li>Capacity: 1200 mAh</li>
+      </ul>
+    </td>
+  </tr>
+</table>
