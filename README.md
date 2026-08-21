@@ -1,4 +1,4 @@
-# hello! We are ** Team Coprocessors **.
+# Hello! We are ** Team Coprocessors **.
 
 <img src="./docs/team photo.jpeg" alt="Team Photo" width=600>
 
@@ -40,3 +40,29 @@ We are a team of students passionate about robotics, AI, and culture. Nexus 2.0 
 - [8.Source code](#8-Source-code)
 - [9.Building Challanges](#9-Building-Challanges)
 - [10.Extras](#10-Extras)
+
+ 
+## Overview
+
+### 1.1 About the Project
+
+Nexus 2.0 is an AI-powered cultural storytelling and assistance robot designed to make India's cultural heritage more interactive, accessible, and engaging.
+
+Nexus acts as a “Guardian of Stories”, combining artificial intelligence, robotics, computer vision, voice interaction, and autonomous mobility to interact with visitors and help them explore cultural knowledge.
+At the heart of Nexus is the idea that cultural heritage is not limited to monuments, artefacts, or written records. People themselves carry stories, memories, traditions, and knowledge. Nexus is designed to help bring these stories to life through natural interaction.
+
+Nexus is connected to our broader Echoes ecosystem, where authentic stories and cultural knowledge can be collected, processed, preserved, and eventually shared through interactive platforms.
+
+The robot uses an NVIDIA Jetson Nano as its primary computing unit and integrates technologies such as YOLOv8 for computer vision, speech processing, a touchscreen interface, and a Mecanum-wheel mobility system.
+
+Our goal is to create a system where technology does not replace the human connection to culture, but instead helps more people discover, understand, and remember the stories behind it.
+
+### Bot Imges
+
+This section showcases the physical development of Nexus 2.0, from its overall design to the completed prototype.
+The images below document the robot's mechanical structure, electronic integration, display system, mobility system, and final appearance.
+
+
+## Mobility Management
+
+### Drive System
