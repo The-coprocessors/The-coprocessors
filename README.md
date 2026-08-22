@@ -204,7 +204,7 @@ The detected objects and their positions are used by the navigation system to as
 <table>
   <tr>
     <td align="center" width="300" >
-      <img src="./docs/BTS7960.jpg" alt="Camera" width = 100% >
+      <img src="./docs/camera.jpeg" alt="Camera" width = 100% >
     </td>
     <td>
       <h3>Specifications:</h3>
@@ -216,7 +216,6 @@ The detected objects and their positions are used by the navigation system to as
           <li>Computer Vision: YOLOv8</li>
           <li>Purpose: Object detection and obstacle avoidance</li>
           <li>Interface: USB</li>
-
       </ul>
     </td>
   </tr>
