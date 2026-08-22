@@ -22,7 +22,7 @@ We are a team of students passionate about robotics, AI, and culture. Nexus 2.0 
    - [2.3 Chassis Design](#23-Chassis-Design)
 - [3.Power and Sence Management](#3-Power-and-Sence-Mannagement)
    - [3.1 Power Source](#31-Power-Source)
-   - [3.2 Sensors and Camera](#32-Sensors-and-camera)
+   - [3.2 Camera](#32-camera)
    - [3.3 Processing Units](#33-Processing-Units)
    - [3.4 Circuit Diagram](#34-Circuit-Diagram)
    - [3.5 Power Consuption](#35-Power-Consumption)
@@ -150,7 +150,7 @@ The chassis was custom-designed in FreeCAD and [3D printed/fabricated using [MAT
 
 ### 3.1 Power Source
 
-**Battery: lithium ion 16046**
+**Battery: Lithium Ion 16046**
 
 <table>
   <tr>
@@ -168,3 +168,62 @@ The chassis was custom-designed in FreeCAD and [3D printed/fabricated using [MAT
     </td>
   </tr>
 </table>
+
+**Motor Driver: BTS7960**
+
+<table>
+  <tr>
+    <td align="center" width="300" >
+      <img src="./docs/BTS7960.jpg" alt="BTS7960" width = 100% >
+    </td>
+    <td>
+      <h3>Specifications:</h3>
+      <ul>
+          <li>Quantity: 2</li>
+          <li>Motor Supply Voltage: 5.5 - 27v </li>
+          <li>control: PWM</li>
+          <li>Appilication: High Current DC Motor Control </li>
+          <li>Interface: Arduino Compatible Control Signals </li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+The power system is a critical part of Nexus 2.0, as it must provide reliable power to both the drive system and onboard electronics. Our robot uses a lithium-ion battery pack containing six 3.7V cells connected in series, providing a nominal voltage of 22.2V.
+
+The motors are powered through two BTS7960 high-current motor drivers, which provide the current required for the four-wheel Mecanum drive system. The remaining electronic components are supplied through appropriate voltage regulation according to their individual requirements.
+
+The battery pack is mounted within the chassis, with the power connections routed to the motor drivers and other electronic components. The wiring layout was developed alongside the hardware integration and is continuously being refined during testing and development.
+
+### 3.2 Camera
+
+
+The Creative Live! Cam Sync HD (VF0770) provides Nexus 2.0 with real-time visual input for its computer vision system. The camera is connected to the NVIDIA Jetson Nano, where the captured video is processed using YOLOv8 for object detection.
+The detected objects and their positions are used by the navigation system to assist with obstacle avoidance and steering decisions. The camera is positioned on the chassis to provide a clear view of the robot's surroundings while maintaining a compact and practical design.
+
+<table>
+  <tr>
+    <td align="center" width="300" >
+      <img src="./docs/BTS7960.jpg" alt="Camera" width = 100% >
+    </td>
+    <td>
+      <h3>Specifications:</h3>
+      <ul>
+          <li>Model: Creative Live! Cam Sync HD</li>
+          <li>Model Number: VF0770</li>
+          <li>Resolution: 720p HD</li>
+          <li>Processing: NVIDIA Jetson Nano</li>
+          <li>Computer Vision: YOLOv8</li>
+          <li>Purpose: Object detection and obstacle avoidance</li>
+          <li>Interface: USB</li>
+
+      </ul>
+    </td>
+  </tr>
+</table>
+
+
+
+
+
+
